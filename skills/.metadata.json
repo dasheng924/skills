@@ -76,6 +76,62 @@
         "scripts/modern-screenshot.umd.js": "sha256:bb36665889124a0b6e15f16045265737449c3bdcf2712cdb08af3cfa01563e2b"
       }
     },
+    "iterative-retrieval": {
+      "source": "https://github.com/joneqian/claude-skills-suite.git/skills/iterative-retrieval",
+      "type": "github-subdir",
+      "installed_at": "2026-11-24T10:39:16.249681346+08:00",
+      "repo_url": "https://github.com/joneqian/claude-skills-suite.git",
+      "subdir": "skills/iterative-retrieval",
+      "version": "58444a3",
+      "tree_hash": "0831bee5ee585ee93a62c93715a704fcead6d3ce",
+      "commit": "58444a34b26d3583d6390fada5f16f60775ef1b9",
+      "file_hashes": {
+        "SKILL.md": "sha256:b278e3e6de8cbf3546d8b9206370f9f2d8a900f2fed26f20a5d05ad15bd5aae9"
+      }
+    },
+    "mysql-patterns": {
+      "source": "https://github.com/joneqian/claude-skills-suite.git/skills/mysql-patterns",
+      "type": "github-subdir",
+      "installed_at": "2026-11-24T10:39:16.268481097+08:00",
+      "repo_url": "https://github.com/joneqian/claude-skills-suite.git",
+      "subdir": "skills/mysql-patterns",
+      "version": "58444a3",
+      "tree_hash": "51aa00054ed1fa7a764d18c228bc0f8f3c8ddff5",
+      "commit": "58444a34b26d3583d6390fada5f16f60775ef1b9",
+      "file_hashes": {
+        "SKILL.md": "sha256:39eb7f1240baac8443c08220170edd8136c7a28d1485e0e552ce3436c0f2e99f"
+      }
+    },
+    "postgres-patterns": {
+      "source": "https://github.com/joneqian/claude-skills-suite.git/skills/postgres-patterns",
+      "type": "github-subdir",
+      "installed_at": "2026-11-24T10:39:16.283762868+08:00",
+      "repo_url": "https://github.com/joneqian/claude-skills-suite.git",
+      "subdir": "skills/postgres-patterns",
+      "version": "58444a3",
+      "tree_hash": "dd52e6146c2b6a055ef1802f0b3432f364e32572",
+      "commit": "58444a34b26d3583d6390fada5f16f60775ef1b9",
+      "file_hashes": {
+        "SKILL.md": "sha256:0f962e1577e6e3c359129701dcf1dc453d3af2ef4609db4e5baf2e04be9a66b7"
+      }
+    },
+    "process-faq": {
+      "source": "https://github.com/joneqian/claude-skills-suite.git/skills/process-faq",
+      "type": "github-subdir",
+      "installed_at": "2026-11-24T10:39:16.334697944+08:00",
+      "repo_url": "https://github.com/joneqian/claude-skills-suite.git",
+      "subdir": "skills/process-faq",
+      "version": "58444a3",
+      "tree_hash": "580b35f0b30d4a27f0f863bb619faaf3e6f27555",
+      "commit": "58444a34b26d3583d6390fada5f16f60775ef1b9",
+      "file_hashes": {
+        "README.md": "sha256:3685d67b0a043ed4a0c2eafb3cacf335e2787978d8589cb24a23c3aab6dafcae",
+        "SKILL.md": "sha256:5a21aaa1c7950dd5757aacd84b89f86e2e8400be9d669e54283c228752da0df8",
+        "requirements.txt": "sha256:1b01848e604471a290a6252fb095babda8539e5339eb4b2a042a0a0519cd6069",
+        "scripts/convert_to_markdown.py": "sha256:1cbe4254bd8183b981d127c985390e188eb52688b69d49b875032ff35d18fb70",
+        "scripts/generate_rag_faq.py": "sha256:2d9f537c39cc2e93fd82baa7b0cb1557b7c9b1f5e3f480a4cc72990e99fd853a"
+      }
+    },
     "skillshare": {
       "source": "github.com/runkids/skillshare/skills/skillshare",
       "type": "github-subdir",
@@ -1748,6 +1804,41 @@
         "scripts/photos.mjs": "sha256:aa949f12c078c744af3180cdde8629fbab5a4594e77160acf30272326053b18e",
         "scripts/shoot.mjs": "sha256:183cde0444a7a17310e157c031f565d36d9b704afd0c9ce7aadde05d933647fd",
         "scripts/start.mjs": "sha256:0aae0d87b7b43bf5543d456bed4029c6986e835143a32c6b05c51d89035029ee"
+      }
+    },
+    "ui-ux-pro-max": {
+      "source": "https://github.com/joneqian/claude-skills-suite.git/skills/ui-ux-pro-max",
+      "type": "github-subdir",
+      "installed_at": "2026-11-24T10:39:16.363859725+08:00",
+      "repo_url": "https://github.com/joneqian/claude-skills-suite.git",
+      "subdir": "skills/ui-ux-pro-max",
+      "version": "58444a3",
+      "tree_hash": "102ff4a7db7e9fd336fc8942824de655df0d1fff",
+      "commit": "58444a34b26d3583d6390fada5f16f60775ef1b9",
+      "file_hashes": {
+        "SKILL.md": "sha256:f564ea0b64451123956b34b27907e25f1486eac30178270903d0f8f9e38b2327",
+        "data/charts.csv": "sha256:3b0cc1b287ad48d6989e2caf8bf84d4bc434438da62feb08259ffde03d153877",
+        "data/colors.csv": "sha256:bd1fd6cf7d93408c0250ba383e01bea2ad1f0a1c9dccd746636c6a80ed937fbf",
+        "data/icons.csv": "sha256:26be5e47c4c3fc7acae52ac8bbfaf1bf9e5ddc9c01808953a3636f8615b9de9f",
+        "data/landing.csv": "sha256:7ac095129592c6c93f10ae3bc687b22bb051c33944597613f39e3a8f7646fe6e",
+        "data/products.csv": "sha256:5359e3037dcb84e99c792ea13dd44f5b78ab6a53557afb309cf19140512aaf5b",
+        "data/prompts.csv": "sha256:0f5acb17260f64fcc96668414d0e8b37418dcb5eec043f49b986b99399831ff3",
+        "data/stacks/flutter.csv": "sha256:e470e6bc2bcd8562667cc764d1e1afb0be0a30ca4dc9ec12fa18b19d46f156bd",
+        "data/stacks/html-tailwind.csv": "sha256:1f004891dd189f6bc2a7717401e3100244326e7e2f3963a79bf7b2349d85e091",
+        "data/stacks/nextjs.csv": "sha256:06a8e8c13bd44696c6ebb4cb6c4d8dea440e3de8cce77616512529ed29258f0c",
+        "data/stacks/nuxt-ui.csv": "sha256:05d6e74501b2b6a636faed32450622759f49a5bcafad971f5f4e7eba0eb7be71",
+        "data/stacks/nuxtjs.csv": "sha256:f7a3f2d9542856d00199f85c6c023b7c284cc698e2e6e12d61afce2edacb24d6",
+        "data/stacks/react-native.csv": "sha256:a08ca77fcf6b6d9531982dce465366296013bfcf12d2938ac72ad57cf0c4f085",
+        "data/stacks/react.csv": "sha256:b6e3eb0e4c9c01bd00ffb951d5ca224a19d488b4544c75436f48cf92ff12bf45",
+        "data/stacks/shadcn.csv": "sha256:395c2e415ef6f48a474acccdc8eb2c7258a6ed751a5037ba171a2d8823e02ded",
+        "data/stacks/svelte.csv": "sha256:bc8d158994a8bdf412830a9dd5e5a5534edd2f367a6e50e0ebd4d76f592dfa3f",
+        "data/stacks/swiftui.csv": "sha256:e87cb9eee208bb753bdab96d4a261c7f830c4317ee90ec098316b248fc32be85",
+        "data/stacks/vue.csv": "sha256:9b793c3f4eec85f77a758c09322f2b62f3b3ca549bb713ccf0849ef885934395",
+        "data/styles.csv": "sha256:899a7c3a7b07a16d783b4b2fa3662c3f01327f5bcffb634a68d2309bb3223a26",
+        "data/typography.csv": "sha256:6c0cd9db74f75d384773b347e1ddac42692c8d00c56790e8a0e619bfa4b9537d",
+        "data/ux-guidelines.csv": "sha256:1870ee048f2a2bdd60709f8f7adf7f3b6dcad560bc005c8b2915a8ac8639820d",
+        "scripts/core.py": "sha256:0cb5565e80318f1c3705e6dbaac305c6dda2eec9eb52535693a11504de44989f",
+        "scripts/search.py": "sha256:58bbf53e728b5b177a964bfcb3a7469bc898bd8083b2e7ec6b630f239d6de7c5"
       }
     }
   }

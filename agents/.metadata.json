@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "entries": {
+    "mysql-database-reviewer": {
+      "source": "https://github.com/joneqian/claude-skills-suite.git/agents/mysql-database-reviewer.md",
+      "kind": "agent",
+      "type": "github-subdir",
+      "installed_at": "2026-11-24T10:40:25.45385869+08:00",
+      "repo_url": "https://github.com/joneqian/claude-skills-suite.git",
+      "subdir": "agents/mysql-database-reviewer.md",
+      "version": "58444a3",
+      "commit": "58444a34b26d3583d6390fada5f16f60775ef1b9",
+      "file_hashes": {
+        "mysql-database-reviewer.md": "sha256:a5c2e2af4bd490360952db27eef7a44df590d52fe44c6ab8f74099145a4db2bf"
+      }
+    },
+    "postgre-database-reviewer": {
+      "source": "https://github.com/joneqian/claude-skills-suite.git/agents/postgre-database-reviewer.md",
+      "kind": "agent",
+      "type": "github-subdir",
+      "installed_at": "2026-11-24T10:40:25.470611207+08:00",
+      "repo_url": "https://github.com/joneqian/claude-skills-suite.git",
+      "subdir": "agents/postgre-database-reviewer.md",
+      "version": "58444a3",
+      "commit": "58444a34b26d3583d6390fada5f16f60775ef1b9",
+      "file_hashes": {
+        "postgre-database-reviewer.md": "sha256:f4bd23c2ba18c8db7ee7de6dcfcda87ba7d456e5cade60e1bfc622770d6705df"
+      }
+    },
+    "product-manager": {
+      "source": "https://github.com/joneqian/claude-skills-suite.git/agents/product-manager.md",
+      "kind": "agent",
+      "type": "github-subdir",
+      "installed_at": "2026-11-24T10:40:25.488641741+08:00",
+      "repo_url": "https://github.com/joneqian/claude-skills-suite.git",
+      "subdir": "agents/product-manager.md",
+      "version": "58444a3",
+      "commit": "58444a34b26d3583d6390fada5f16f60775ef1b9",
+      "file_hashes": {
+        "product-manager.md": "sha256:0505b3410c638c97e2e6f672c70f8f8332aa4b336b72a0f6bb7df3a3bd6562f2"
+      }
+    },
+    "vue3-frontend-developer": {
+      "source": "https://github.com/joneqian/claude-skills-suite.git/agents/vue3-frontend-developer.md",
+      "kind": "agent",
+      "type": "github-subdir",
+      "installed_at": "2026-11-24T10:40:25.494503745+08:00",
+      "repo_url": "https://github.com/joneqian/claude-skills-suite.git",
+      "subdir": "agents/vue3-frontend-developer.md",
+      "version": "58444a3",
+      "commit": "58444a34b26d3583d6390fada5f16f60775ef1b9",
+      "file_hashes": {
+        "vue3-frontend-developer.md": "sha256:ec5ec309e98bfcac8421e5b37ca2915060896137437ad32d20a1550558d8ab62"
+      }
+    }
+  }
+}
